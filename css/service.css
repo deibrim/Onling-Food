@@ -1,0 +1,61 @@
+.service_area {
+  padding-top: 150px;
+}
+.l-flex {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 767px) {
+  .service_area {
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+}
+
+.service_area .single_service {
+  border: 2px solid #eee;
+  padding: 50px 42px 55px 42px;
+  margin-bottom: 60px;
+  border-radius: 10px;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media (max-width: 767px) {
+  .service_area .single_service {
+    margin-bottom: 30px;
+  }
+}
+
+.service_area .single_service .service_icon img {
+  color: orangered;
+  width: 50px;
+}
+
+.service_area .single_service h4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.service_area .single_service p {
+  color: #888888;
+  font-weight: 300;
+  margin-bottom: 0;
+  line-height: 28px;
+}
+
+.service_area .single_service:hover {
+  background: orangered;
+  border: 2px solid transparent;
+}
+
+.service_area .single_service:hover h4,
+.service_area .single_service:hover p,
+.service_area .single_service:hover i {
+  color: #fff;
+}

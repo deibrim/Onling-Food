@@ -1,0 +1,81 @@
+.order_area {
+  padding-top: 150px;
+  padding-bottom: 90px;
+}
+
+@media (max-width: 767px) {
+  .order_area {
+    padding-top: 60px;
+    padding-bottom: 0px;
+  }
+}
+
+.order_area .single_order {
+  margin-bottom: 60px;
+}
+
+.order_area .single_order .order_thumb {
+  position: relative;
+}
+
+.order_area .single_order .order_thumb img {
+  width: 100%;
+}
+
+.order_area .single_order .order_thumb .order_prise {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  background: #fff;
+  color: orangered;
+  padding: 17px 21px 13px 24px;
+  /* border-radius: 0px; */
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 0;
+  line-height: 18px;
+}
+
+.order_area .single_order .order_thumb .order_prise span {
+  position: relative;
+}
+
+.order_area .single_order .order_thumb .order_prise span::before {
+  position: absolute;
+  content: '$';
+  left: -5px;
+  top: -1px;
+  color: orangered;
+  font-size: 10px;
+}
+
+.order_area .single_order .order_info h3 a {
+  font-size: 24px;
+  color: #000;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  display: block;
+  margin-top: 38px;
+  margin-bottom: 16px;
+}
+
+.order_area .single_order .order_info p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #777777;
+  margin-bottom: 0;
+  margin-bottom: 30px;
+}
+.boxed_btn {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+  display: inline-block;
+  padding: 10px 39px;
+  border: 2px solid orangered;
+  text-transform: capitalize;
+}
+.boxed_btn:hover {
+  background: orangered;
+  color: #fff;
+}
